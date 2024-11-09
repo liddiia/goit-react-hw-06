@@ -5,7 +5,7 @@ import { setFilter } from "../../redux/filtersSlice"
 import css from "./SearchBox.module.css";
 
 const SearchBox = () => {
-  const filters = useSelector((state) => state.filter.name)
+  const filters = useSelector((state) => state.filters.name)
   const dispatch = useDispatch();
   
   return (
